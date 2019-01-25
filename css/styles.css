@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  background-image: url("../img/cubes.png");
+  background-size: contain;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 2rem;
+}
+
+label {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    display: block;
+    font-size: 18px;
+}
+
+input {
+    margin: 10px;
+}
+
+#button {
+    display: block;
+    margin: 0 auto;
+}
