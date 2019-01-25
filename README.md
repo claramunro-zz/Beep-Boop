@@ -6,7 +6,7 @@
 
 ## Description
 
-* 
+* https://claramunro.github.io/beep-boop/
 
 This is a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
 
@@ -32,6 +32,14 @@ Example: If a user inputs a 5, the program should display a list of values: "Bee
 * Program replaces 0 with "BEEP!":
     * Example Input: 0 
     * Example Output: ["BEEP!"]
+    
+* Program replaces 1 with "B00P!":
+    * Example Input: 1 
+    * Example Output: ["BOOP!"]
+     
+* Program replaces #'s divisible by 3 with "I'm sorry NAME, I can't do that!":
+    * Example Input: # % 3 === 0
+    * Example Output: "I'm sorry NAME, I can't do that!";
 
 ## Known Bugs
 
