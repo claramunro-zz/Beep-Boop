@@ -6,17 +6,32 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+* 
+
+This is a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
+
+Numbers that contain a 0 are replaced (all digits) with "BEEP!"
+Numbers that contain a 1 are replaced (all digits) with "B00P!"
+Numbers divisible by 3 are replaced with "I'm sorry, NAME. I'm afraid I can't do that."
+These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third. So, for example, in your finished program the number 10 should be replaced with "Boop!", and the number 30 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+
+A user can also enter a new number and see new results over and over again.
+
+Example: If a user inputs a 5, the program should display a list of values: "Beep!", "Boop!", 2, "I'm Sorry...", 4, 5
+
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+*  clone this repo
+*  cd into folder
+*  open index.html
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+
+## Specifications
+
+* Program replaces 0 with "BEEP!":
+    * Example Input: 0 
+    * Example Output: ["BEEP!"]
 
 ## Known Bugs
 
@@ -28,11 +43,12 @@ _Email me at clarajmunro@gmail.com_
 
 ## Technologies Used
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* HTML5
+* CSS3
+* Javascript
+* jQuery
+* Visual Studio Code
+
 
 ### License
 

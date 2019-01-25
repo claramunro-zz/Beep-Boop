@@ -4,9 +4,10 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  color: #222;
-  background-image: url("../img/cubes.png");
-  background-size: contain;
+  color: #000;
+    background-image: url("../img/shapes.png");
+  background-repeat: repeat;
+  background-color: #ffffff;
 }
 
 /*--- Bootstrap Padding Fix --*/
@@ -18,7 +19,7 @@ label {
     font-family: monospace, Arial, Helvetica, sans-serif;
     text-decoration: underline;
     display: block;
-    font-size: 18px;
+    font-size: 28px;
 }
 
 input {
@@ -28,4 +29,17 @@ input {
 #button {
     display: block;
     margin: 0 auto;
+}
+
+p {
+font-family: monospace, Arial, Helvetica, sans-serif;
+text-decoration: overline;
+font-size: 32px;
+}
+
+#mac {
+background-image: url("../img/mac2.png");
+background-size: contain;
+max-width: 1200px;
+max-height: 500px;
 }
