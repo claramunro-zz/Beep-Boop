@@ -6,7 +6,7 @@
 
 ## Description
 
-* https://claramunro.github.io/beep-boop/
+* https://claramunro.github.io/wk3-p-beep-boop/
 
 This is a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
 
