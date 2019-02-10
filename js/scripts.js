@@ -2,8 +2,8 @@
 
 function beep(input) {
   var outputArray = [];
-  for (var i = 1; i <= input; i++) {
-    if (i % 3 === 0 ) {
+  for (var i = 0; i <= input; i++) {
+    if (i % 3 === 0 && i != 0 ) {
       outputArray.push(' I\'M SORRY ' + name + ', I\'M AFRAID I CAN\'T DO THAT ');
     }
 
