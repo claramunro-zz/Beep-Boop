@@ -7,12 +7,12 @@ function beep(input) {
       outputArray.push(' I\'M SORRY ' + name + ', I\'M AFRAID I CAN\'T DO THAT ');
     }
 
-    else if (i.toString().match(/0/)) {
-      outputArray.push(' BEEP ');
-    }
-
     else if (i.toString().match(/1/)) {
       outputArray.push(' B00P ');
+    }
+
+    else if (i.toString().match(/0/)) {
+      outputArray.push(' BEEP ');
     }
 
     else {
